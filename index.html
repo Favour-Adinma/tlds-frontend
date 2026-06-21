@@ -862,9 +862,8 @@ checkMeetingStatus();
 // ═══════════════════════════════════════════════════
 // BACKEND CONNECTION — Replace localhost with your Render URL
 // ═══════════════════════════════════════════════════
-const BACKEND_URL = 'http://localhost:3001';  // ← change to your Render URL
-const WS_URL      = 'ws://localhost:3001';    // ← change to your Render WS URL
-
+const BACKEND_URL = 'https://tlds-backend.onrender.com';
+const WS_URL      = 'wss://tlds-backend.onrender.com';
 let socket = null;
 
 function connectWebSocket() {
